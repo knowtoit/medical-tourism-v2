@@ -1,0 +1,9 @@
+.marginLeftSide{
+    margin-left: 7%;
+}
+
+@media screen and (max-width: 863px) {
+    .marginLeftSide{
+        margin-left: 0;
+    }
+  }

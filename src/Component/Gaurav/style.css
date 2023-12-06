@@ -1,0 +1,79 @@
+/* Desktop CSS */
+.elementor-section, 
+.elementor-row, 
+.elementor-widget-wrap, 
+.elementor-column-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementor-22 .elementor-element.elementor-element-0e19c24 > .elementor-widget-container{
+    margin: -287px 0px 0px 0px;
+
+}
+
+.elementor-column {
+    flex: 1;
+}
+
+.elementor-text-editor p {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.elementor-heading-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.elementor-widget-spacer {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+/* Mobile CSS */
+@media screen and (max-width: 768px) {
+    .elementor-section, 
+    .elementor-row, 
+    .elementor-widget-wrap, 
+    .elementor-column-wrap {
+        flex-direction: column;
+    }
+
+    .elementor-widget-spacer {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+
+
+    .elementor-column {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .elementor-text-editor p {
+        font-size: 14px;
+    }
+
+    .elementor-heading-title {
+        font-size: 18px;
+    }
+
+    svg {
+        max-width: 100px; /* Adjust size based on your requirements */
+        height: auto;
+    }
+
+    .elementor-widget-spacer {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,19 @@
+.carousel-wrapper {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .main-image {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 10%; 
+    right: 0; 
+    width: 50%; 
+  }
+  
+  
