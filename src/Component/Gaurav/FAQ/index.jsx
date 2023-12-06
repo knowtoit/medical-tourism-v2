@@ -20,7 +20,7 @@ import {
 } from "reactstrap";
 
 // ** Images
-import illustration from "@src/assets/images/illustration/faq-illustrations.svg";
+// import illustration from "@src/assets/images/illustration/faq-illustrations.svg";
 
 const Faqs = () => {
   let data = {
